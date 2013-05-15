@@ -1,17 +1,24 @@
-OpenRC Arch Services
-====================
+Arch Linux OpenRC Services
+==========================
 
-OpenRC service files for Arch Linux
+OpenRC_ service files for `Arch Linux`_.
 
-Contributing
-------------
+Submitting Service Files
+------------------------
 
-When submitting additional service files please:
+Be sure to follow the following guidelines before submitting service files.
 
-+ verify that the service file actually works
-+ include a conf file if necessary with sane defaults
-+ make sure pid files are created in ``/run`` not ``/var/run``
-+ use 4 spaces for indentation
-+ make a single commit per service
+* Instead of duplicating effort, search for service files in Gentoo's repositories_. If you do find them, they will need to be adjusted for use with Arch.
+* Ensure that the service files actually work.
+* Include respective conf files where necessary.
+* Make sure pid files are created under :code:`/run` instead of :code:`/var/run`.
+* With Arch Linux gradually moving forward with `/usr unification`_, ensure that the service files are adjusted accordingly.
+* use 4 spaces for indentation.
+* make a single commit per service.
 
-See ``man runscript`` for details on writing service files.
+See :code:`man runscript` for help with writing service files.
+
+.. _OpenRC: http://www.gentoo.org/proj/en/base/openrc/
+.. _Arch Linux: https://www.archlinux.org/
+.. _repositories: http://sources.gentoo.org/cgi-bin/viewvc.cgi
+.. _/usr unification: https://lwn.net/Articles/483921/
