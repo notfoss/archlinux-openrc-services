@@ -1,8 +1,10 @@
+# Use the command-line to override the options used here.
+
 INIT_FILES = ${wildcard init.d/*}
 CONF_FILES = ${wildcard conf.d/*}
 
-DESTDIR ?= /usr/local
-SYSCONFDIR ?= etc
+DESTDIR = /usr/local
+SYSCONFDIR = /etc/openrc
 
 INITDIR = ${DESTDIR}/${SYSCONFDIR}/init.d
 CONFDIR = ${DESTDIR}/${SYSCONFDIR}/conf.d
