@@ -31,7 +31,7 @@ depend() {
     [ "${SVCNAME}" = "fcron" ] && provide cron
 }
 
-command="/usr/sbin/fcron"
+command="/usr/bin/fcron"
 command_args="-c $(configfile)"
 pidfile=$(getconfig pidfile /run/fcron.pid)
 fcrontabs=$(getconfig fcrontabs /var/spool/fcron)
