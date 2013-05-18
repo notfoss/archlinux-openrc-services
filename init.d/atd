@@ -1,7 +1,7 @@
 #!/sbin/runscript
 
 pidfile=/run/atd.pid
-command=/usr/sbin/atd
+command=/usr/bin/atd
 command_args="$ATD_OPTS"
 
 depend() {
