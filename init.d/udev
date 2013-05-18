@@ -123,7 +123,7 @@ start_udevmonitor()
     einfo "udev: Running udevadm monitor ${udev_monitor_opts} to log all events"
     start-stop-daemon --start --stdout "${udevmonitor_log}" \
         --make-pidfile --pidfile "${udevmonitor_pid}" \
-        --background --exec /sbin/udevadm -- monitor ${udev_monitor_opts}
+        --background --exec /usr/bin/udevadm -- monitor ${udev_monitor_opts}
 }
 
 populate_dev()
@@ -156,7 +156,7 @@ stop_udevmonitor()
         ewarn "udev: udevmonitor is still running and writing into ${udevmonitor_log}"
     else
         einfo "udev: Stopping udevmonitor: Log is in ${udevmonitor_log}"
-        start-stop-daemon --stop --pidfile "${udevmonitor_pid}" --exec /sbin/udevadm
+        start-stop-daemon --stop --pidfile "${udevmonitor_pid}" --exec /usr/bin/udevadm
     fi
 }
 
