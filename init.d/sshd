@@ -12,7 +12,7 @@ depend() {
 
 SSHD_CONFDIR=${SSHD_CONFDIR:-/etc/ssh}
 SSHD_PIDFILE=${SSHD_PIDFILE:-/run/${SVCNAME}.pid}
-SSHD_BINARY=${SSHD_BINARY:-/usr/sbin/sshd}
+SSHD_BINARY=${SSHD_BINARY:-/usr/bin/sshd}
 
 checkconfig() {
     if [ ! -d /var/empty ] ; then
