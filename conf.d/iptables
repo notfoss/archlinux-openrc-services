@@ -5,7 +5,7 @@
 IPTABLES_SAVE="/etc/iptables/iptables.rules"
 
 # Options to pass to iptables-save and iptables-restore 
-SAVE_RESTORE_OPTIONS="-c"
+SAVE_RESTORE_OPTIONS=""
 
 # Save state on stopping iptables
 SAVE_ON_STOP="yes"
