@@ -10,7 +10,7 @@ if [ "${iptables_name}" != "iptables" -a "${iptables_name}" != "ip6tables" ] ; t
 	iptables_name="iptables"
 fi
 
-iptables_bin="/usr/sbin/${iptables_name}"
+iptables_bin="/usr/bin/${iptables_name}"
 case ${iptables_name} in
 	iptables)  iptables_proc="/proc/net/ip_tables_names"
 	           iptables_save=${IPTABLES_SAVE};;
