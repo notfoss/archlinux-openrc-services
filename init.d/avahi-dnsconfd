@@ -11,18 +11,18 @@ depend() {
 
 start() {
   ebegin "Starting avahi-dnsconfd"
-  /usr/sbin/avahi-dnsconfd -D
+  /usr/bin/avahi-dnsconfd -D
   eend $?
 }
 
 stop() {
   ebegin "Stopping avahi-dnsconfd"
-  /usr/sbin/avahi-dnsconfd -k
+  /usr/bin/avahi-dnsconfd -k
   eend $?
 }
 
 reload() {
   ebegin "Reloading avahi-dnsconfd"
-  /usr/sbin/avahi-dnsconfd -r
+  /usr/bin/avahi-dnsconfd -r
   eend $?
 }
