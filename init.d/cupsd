@@ -1,6 +1,6 @@
 #!/sbin/runscript
 
-command="/usr/sbin/cupsd"
+command="/usr/bin/cupsd"
 
 depend() {
     use logger
