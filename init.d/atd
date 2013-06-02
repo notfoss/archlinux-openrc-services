@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 pidfile=/run/atd.pid
 command=/usr/bin/atd

@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 depend() {
     before net

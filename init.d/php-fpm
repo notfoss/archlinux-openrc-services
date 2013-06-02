@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 description="PHP FastCGI Process Manager"
 extra_started_commands="reload"

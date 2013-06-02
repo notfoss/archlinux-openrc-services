@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 command="/usr/bin/mpd"
 description="Music Player Daemon"

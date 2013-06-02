@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 name="teamviewerd"
 description="Daemon for TeamViewer remote control program"

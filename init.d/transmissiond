@@ -1,4 +1,4 @@
-#!/sbin/runscript
+#!/usr/bin/runscript
 
 name="transmissiond"
 description="Transmission daemon"
