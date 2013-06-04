@@ -12,7 +12,7 @@ Be sure to follow the following guidelines before submitting service files.
 * Ensure that the service files actually work.
 * Include respective conf files where necessary.
 * Make sure pid files are created under :code:`/run` instead of :code:`/var/run`.
-* With Arch Linux almost done with the `/usr unification`_, ensure that the service files are adjusted accordingly.
+* With Arch Linux having finished the `/usr unification`_, ensure that the service files are adjusted accordingly.
 * Use 4 spaces for indentation.
 * Make a single commit per service.
 
