@@ -18,4 +18,4 @@ SSHD_PIDFILE="/run/sshd.pid"
 
 # Path to the sshd binary (needs to be absolute path).
 
-#SSHD_BINARY="/usr/sbin/sshd"
+SSHD_BINARY="/usr/bin/sshd"
