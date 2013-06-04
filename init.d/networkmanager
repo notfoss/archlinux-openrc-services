@@ -1,6 +1,6 @@
 #!/usr/bin/runscript
 
-command=/usr/sbin/NetworkManager
+command=/usr/bin/NetworkManager
 description="manages network connections"
 
 extra_started_commands="wake sleep"
