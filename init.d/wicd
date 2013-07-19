@@ -1,0 +1,10 @@
+#!/usr/bin/runscript
+
+description="Wicd is a wired and wireless network manager for Linux"
+
+command="/usr/bin/wicd"
+pidfile="/run/wicd/wicd.pid"
+
+depend() {
+    need dbus
+}
