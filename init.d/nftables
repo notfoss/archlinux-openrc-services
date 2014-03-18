@@ -1,0 +1,30 @@
+#!/usr/bin/runscript
+
+description="Manage nftables using nftablesctl"
+command="/usr/bin/nftablesctl"
+
+depend() {
+    before net
+}
+
+checkconfig() {
+    if [ ! -x "$command" ]; then
+        eerror "nftablesctl not found"
+        eerror "Please install nftables-systemd-git from the AUR"
+        return 1
+    fi
+    return 0
+}
+
+start() {
+    checkconfig || return 1
+    ebegin "Starting nftables firewall"
+    "$command" start
+    eend $?
+}
+
+stop() {
+    ebegin "Stopping nftables firewall"
+    "$command" stop
+    eend $?
+}
