@@ -10,7 +10,7 @@ depend() {
 checkconfig() {
     if [ ! -x "$command" ]; then
         eerror "nftablesctl not found"
-        eerror "Please install nftables-systemd-git from the AUR"
+        eerror "Please install https://github.com/notfoss/nftables-systemd"
         return 1
     fi
     return 0
