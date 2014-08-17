@@ -2,7 +2,7 @@
 
 name="teamviewerd"
 description="Daemon for TeamViewer remote control program"
-command="/opt/teamviewer8/tv_bin/${name}"
+command="/opt/teamviewer9/tv_bin/${name}"
 command_args="-d"
 pidfile="/run/${name}.pid"
 
