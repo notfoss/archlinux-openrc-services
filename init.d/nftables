@@ -1,4 +1,4 @@
-#!/usr/bin/runscript
+#!/usr/bin/openrc-run
 
 description="Manage nftables using nftablesctl"
 command="/usr/bin/nftablesctl"

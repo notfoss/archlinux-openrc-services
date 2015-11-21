@@ -1,4 +1,4 @@
-#!/usr/bin/runscript
+#!/usr/bin/openrc-run
 
 name="mysqld"
 description="MySQL Server"

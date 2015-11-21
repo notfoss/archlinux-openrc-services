@@ -1,4 +1,4 @@
-#!/usr/bin/runscript
+#!/usr/bin/openrc-run
 
 description="Brings instant messaging (XMPP, MSN, Yahoo!, AIM, ICQ, Twitter) to IRC"
 pidfile=/run/bitlbee/bitlbee.pid

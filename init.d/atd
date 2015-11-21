@@ -1,4 +1,4 @@
-#!/usr/bin/runscript
+#!/usr/bin/openrc-run
 
 pidfile=/run/atd.pid
 command=/usr/bin/atd

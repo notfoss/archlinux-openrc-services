@@ -1,4 +1,4 @@
-#!/usr/bin/runscript
+#!/usr/bin/openrc-run
 
 description="Remove /run/nologin created by systemd tmpfiles.d"
 
