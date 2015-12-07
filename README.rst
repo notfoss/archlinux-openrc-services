@@ -18,7 +18,7 @@ Be sure to follow the following guidelines before submitting service files.
 
 See :code:`man runscript` for help with writing service files.
 
-.. _OpenRC: http://www.gentoo.org/proj/en/base/openrc/
+.. _OpenRC: https://wiki.gentoo.org/wiki/Project:OpenRC
 .. _Arch Linux: https://www.archlinux.org/
 .. _repositories: http://sources.gentoo.org/cgi-bin/viewvc.cgi
 .. _/usr unification: https://lwn.net/Articles/483921/
